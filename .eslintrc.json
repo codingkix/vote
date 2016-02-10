@@ -1,9 +1,5 @@
 {
     "rules": {
-        "indent": [
-            2,
-            "tab"
-        ],
         "quotes": [
             2,
             "single"
@@ -15,12 +11,14 @@
         "semi": [
             2,
             "always"
-        ]
+        ],
+        "no-mixed-spaces-and-tabs": [0, "smart-tabs"]
     },
     "env": {
         "es6": true,
         "node": true,
-        "browser": true
+        "browser": true,
+        "mocha": true
     },
     "extends": "eslint:recommended",
     "ecmaFeatures": {
